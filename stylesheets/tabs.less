@@ -35,7 +35,9 @@
     .close-icon {
       z-index: 3;
       line-height: @tab-height;
-      transition: color .1s ease-in;
+      &:hover {
+        transition: color .1s ease-in;
+      }
     }
 
     &.modified:not(:hover) .close-icon {
